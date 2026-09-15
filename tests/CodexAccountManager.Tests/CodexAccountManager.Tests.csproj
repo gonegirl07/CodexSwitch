@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><UseWindowsForms>true</UseWindowsForms></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../src/CodexAccountManager.Core/CodexAccountManager.Core.csproj" /></ItemGroup>
+  <ItemGroup><ProjectReference Include="../../src/CodexAccountManager/CodexAccountManager.csproj" /></ItemGroup>
+</Project>

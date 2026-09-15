@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>CodexAccountManager</AssemblyName>
+    <Version>1.4.0</Version>
+    <ApplicationIcon>../../assets/app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../CodexAccountManager.Core/CodexAccountManager.Core.csproj" /></ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../../assets/logo.png" LogicalName="CodexAccountManager.logo.png" />
+    <EmbeddedResource Include="../../assets/app.ico" LogicalName="CodexAccountManager.app.ico" />
+    <EmbeddedResource Include="../../LICENSE" LogicalName="CodexAccountManager.LICENSE" />
+  </ItemGroup>
+</Project>

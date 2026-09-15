@@ -1,0 +1,37 @@
+{
+  "name": "codexswitch",
+  "version": "1.5.0",
+  "author": "Gonegirl07",
+  "description": "Linux desktop hub: run many Codex CLI accounts at once across projects, with auto-login, 5h/weekly quota, and API pools.",
+  "bin": {
+    "codexswitch": "./install.sh"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "bash ./install.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonegirl07/CodexSwitch.git"
+  },
+  "homepage": "https://github.com/gonegirl07/CodexSwitch",
+  "bugs": {
+    "url": "https://github.com/gonegirl07/CodexSwitch/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "cli",
+    "accounts",
+    "auto-login",
+    "linux",
+    "macos",
+    "armbian"
+  ]
+}
